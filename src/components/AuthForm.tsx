@@ -21,7 +21,7 @@ export const AuthForm = () => {
     <div className="w-full max-w-xs flex flex-col items-center">
       <div className="flex items-center justify-center gap-3.5 mb-6">
         <img 
-          src="/arena.png" 
+          src="/pngs/arena.png" 
           alt="Arena" 
           className="w-14 h-14 object-contain brightness-0 invert" 
         />
