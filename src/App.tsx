@@ -1,18 +1,11 @@
-import { useEffect } from 'react';
+import { DesktopView } from './components/DesktopView';
+import { MobileView } from './components/MobileView';
 
 export const App = () => {
-  useEffect(() => {
-    const tg = window.Telegram?.WebApp;
-    if (tg) {
-      tg.ready();
-      tg.expand();
-      if (typeof tg.disableVerticalSwipes === 'function') {
-        tg.disableVerticalSwipes();
-      }
-    }
-  }, []);
-
   return (
-    <main className="w-full h-full bg-dark" />
+    <main className="w-full h-full">
+      <DesktopView />
+      <MobileView />
+    </main>
   );
 };
