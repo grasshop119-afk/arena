@@ -11,10 +11,9 @@ export default {
       },
       colors: {
         gg: {
-          dark: "#080b11",
+          dark: "#050b14",
           surface: "#0e131d",
-          border: "rgba(255, 255, 255, 0.08)",
-          inputBg: "rgba(255, 255, 255, 0.07)",
+          border: "rgba(79, 172, 254, 0.3)",
           textMuted: "#6b7c96",
         }
       }
