@@ -6,14 +6,15 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Manrope', 'sans-serif'],
+      },
       colors: {
         gg: {
           dark: "#080b11",
           surface: "#0e131d",
-          border: "#1d2636",
-          input: "#141b29",
-          primary: "#2563eb",
-          primaryHover: "#1d4ed8",
+          border: "rgba(255, 255, 255, 0.08)",
+          inputBg: "rgba(255, 255, 255, 0.07)",
           textMuted: "#6b7c96",
         }
       }
