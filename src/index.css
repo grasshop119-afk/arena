@@ -7,6 +7,7 @@
   -webkit-user-select: none;
   user-select: none;
   overscroll-behavior: none;
+  font-family: 'Manrope', sans-serif;
 }
 
 html, body {
@@ -16,18 +17,7 @@ html, body {
   padding: 0;
   overflow: hidden;
   position: fixed;
-  background-color: #080b11;
-  font-family: 'Manrope', sans-serif;
-}
-
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-input[type="number"] {
-  -moz-appearance: textfield;
+  background-color: #050b14;
 }
 
 img, a {
